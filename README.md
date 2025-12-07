@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce projet contient le script Python (**session6.py** ou équivalent) permettant de générer une analyse complète du taux d'absentéisme sous forme de tableau de bord (dashboard) regroupant quatre visualisations clés.
+Ce projet contient le script Python (**stp_6_dash.py**) permettant de générer une analyse complète du taux d'absentéisme sous forme de tableau de bord (dashboard) regroupant quatre visualisations clés.
 
 -----
 
@@ -27,15 +27,13 @@ Ce script nécessite les librairies Python suivantes. Elles peuvent être instal
 pip install pandas matplotlib seaborn openpyxl
 ```
 
-*(Note : `openpyxl` est nécessaire pour lire les fichiers `.xlsx` avec pandas.)*
-
 -----
 
 ## 📂 Structure des Fichiers
 
 | Chemin | Description |
 | :--- | :--- |
-| `votre_script_name.py` | Le script principal contenant les fonctions de calcul et de visualisation. |
+| `tp_6_dash.py` | Le script principal contenant les fonctions de calcul et de visualisation. |
 | `data/taux_absenteisme_data.xlsx` | **Source de données obligatoire** contenant les colonnes de jours d'absence et jours travaillables. |
 
 -----
